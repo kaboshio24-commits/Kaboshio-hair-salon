@@ -1,5 +1,5 @@
 // IMPORTANT: Replace SALON_WHATSAPP with the salon's WhatsApp number in international format.
-const SALON_WHATSAPP = "2347083533968"; // Example format for Nigeria: 2348012345678 (no + or spaces)
+const +2347083533968 = "2347083533968"; // Example format for Nigeria: 2348012345678 (no + or spaces)
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");

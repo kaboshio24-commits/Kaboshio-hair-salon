@@ -54,9 +54,5 @@ document.getElementById("bookingForm").addEventListener("submit", event => {
 
 document.getElementById("whatsappLink").addEventListener("click", event => {
   event.preventDefault();
-  if (SALON_WHATSAPP === "2347083533968") {
-    alert("Before using WhatsApp chat, open script.js and the configured KABOSHIO WhatsApp number is 07083533968.");
-    return;
-  }
   openWhatsApp("Hello KABOSHIO! I'd like to ask about your services and prices.");
 });

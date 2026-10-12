@@ -36,10 +36,6 @@ function openWhatsApp(message) {
 
 document.getElementById("bookingForm").addEventListener("submit", event => {
   event.preventDefault();
-  if (SALON_WHATSAPP === "2347083533968") {
-    alert("Before using bookings, open script.js and the configured KABOSHIO WhatsApp number is 07083533968.");
-    return;
-  }
   const form = new FormData(event.currentTarget);
   const message = [
     "Hello KABOSHIO! I'd like to request an appointment.",
